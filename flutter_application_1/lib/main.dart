@@ -35,7 +35,6 @@ class MainApp extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    // Место для фото из интернета
                     Container(
                       width: 200,
                       height: 300,
@@ -46,7 +45,6 @@ class MainApp extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 20),
-                    // 5 кнопок
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 20.0),
                       child: Row(
